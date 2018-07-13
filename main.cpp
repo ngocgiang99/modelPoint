@@ -127,6 +127,7 @@ Vec3 getIntersectionPoint(Vec3 CameraPos, Vec3 RayCamera) {
     }
 }
 
+// Khoảng cách giữa 2 điểm
 float dist(Vec3 P1, Vec3 P2) {
     return distance(P1, P2);
 }
@@ -143,16 +144,16 @@ Vec3 getans(Vec3 X) {
     return P[pos];
 }
 
+//sinh một tập điểm ngẫu nhiên
 void initPoint() {
     random_device rd;
     mt19937 gen(rd());
-    uniform_real_distribution<float> dis(-10.0, 10.0);
+    uniform_real_distribution<float> ran(-10.0, 10.0);
 
     cnt = 100;
 
     for(int i = 0; i < cnt; ++i) {
-        P[i] = Vec3(dis(gen), dis(gen), dis(gen));
-        //cout<< P[i].x <<' '<< P[i].y <<' '<< P[i].z <<endl;
+        P[i] = Vec3(ran(gen), ran(gen), ran(gen));
     }
 }
 
@@ -165,14 +166,13 @@ int main() {
     Vec3 CameraPos = Vec3(xCamera, yCamera, zCamera);
     Vec3 RayCamera = Vec3(xRay, yRay, zRay);
 
+    // Tìm giao của Ray với model
     Vec3 X = getIntersectionPoint(CameraPos, RayCamera);
 
     initPoint();
 
+    // Tìm điểm thuộc model gần với Ray nhất
     Vec3 ans = getans(X);
-
-
-    //cout<< distance(Vec3(1,0,0), Vec3(0,1,0)) <<endl;
 
 
     cout<< X.x <<' '<< X.y <<' '<< X.z << '\n';
