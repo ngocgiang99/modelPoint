@@ -1,0 +1,3 @@
+/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/modelPoint.dir

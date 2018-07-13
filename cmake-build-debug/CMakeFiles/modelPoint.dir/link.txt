@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/modelPoint.dir/main.cpp.o  -o modelPoint 
