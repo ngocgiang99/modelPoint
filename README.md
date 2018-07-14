@@ -8,4 +8,4 @@
 
 - Hàm getIntersectionPoint() sẽ trả về tọa độ giao điểm của tia với một mặt nào đó.
 
-- Hàm getans() thì trả về điểm thuộc model gần giao điểm nhất ( Cái này duyệt trâu).
+- Hàm getans() thì trả về điểm cùng mặt của hình hộp gần giao điểm nhất ( Cái này duyệt trâu).
