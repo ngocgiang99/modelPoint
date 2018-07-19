@@ -48,10 +48,10 @@ RM = "/home/giang/Dev by me/clion-2018.1.4/bin/cmake/bin/cmake" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giang/Desktop/modelPoint
+CMAKE_SOURCE_DIR = /home/giang/Desktop/3DX/modelPoint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giang/Desktop/modelPoint/cmake-build-debug
+CMAKE_BINARY_DIR = /home/giang/Desktop/3DX/modelPoint/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named modelPoint
+# Target rules for targets named main
 
 # Build rule for target.
-modelPoint: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 modelPoint
-.PHONY : modelPoint
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-modelPoint/fast:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/build
-.PHONY : modelPoint/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named modelPointCaculator
+
+# Build rule for target.
+modelPointCaculator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modelPointCaculator
+.PHONY : modelPointCaculator
+
+# fast build rule for target.
+modelPointCaculator/fast:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/build
+.PHONY : modelPointCaculator/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +142,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +151,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +160,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+modelPointCaculator.o: modelPointCaculator.cpp.o
+
+.PHONY : modelPointCaculator.o
+
+# target to build an object file
+modelPointCaculator.cpp.o:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o
+.PHONY : modelPointCaculator.cpp.o
+
+modelPointCaculator.i: modelPointCaculator.cpp.i
+
+.PHONY : modelPointCaculator.i
+
+# target to preprocess a source file
+modelPointCaculator.cpp.i:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.i
+.PHONY : modelPointCaculator.cpp.i
+
+modelPointCaculator.s: modelPointCaculator.cpp.s
+
+.PHONY : modelPointCaculator.s
+
+# target to generate assembly for a file
+modelPointCaculator.cpp.s:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.s
+.PHONY : modelPointCaculator.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... modelPoint"
+	@echo "... main"
+	@echo "... modelPointCaculator"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... modelPointCaculator.o"
+	@echo "... modelPointCaculator.i"
+	@echo "... modelPointCaculator.s"
 .PHONY : help
 
 

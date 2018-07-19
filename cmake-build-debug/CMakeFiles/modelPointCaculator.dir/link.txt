@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmodelPointCaculator.a  CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o
+/usr/bin/ranlib libmodelPointCaculator.a

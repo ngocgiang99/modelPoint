@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/modelPoint.dir/main.cpp.o  -o modelPoint 
+/usr/bin/c++  -g   CMakeFiles/modelPoint.dir/main.cpp.o CMakeFiles/modelPoint.dir/m.cpp.o  -o modelPoint 

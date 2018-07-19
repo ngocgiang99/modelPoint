@@ -54,45 +54,82 @@ RM = "/home/giang/Dev by me/clion-2018.1.4/bin/cmake/bin/cmake" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giang/Desktop/modelPoint
+CMAKE_SOURCE_DIR = /home/giang/Desktop/3DX/modelPoint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giang/Desktop/modelPoint/cmake-build-debug
+CMAKE_BINARY_DIR = /home/giang/Desktop/3DX/modelPoint/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/modelPoint.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/modelPoint.dir/all:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/depend
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target modelPoint"
-.PHONY : CMakeFiles/modelPoint.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/modelPointCaculator.dir/all
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
-all: CMakeFiles/modelPoint.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/modelPoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/modelPoint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/modelPoint.dir/rule
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-modelPoint: CMakeFiles/modelPoint.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : modelPoint
-
-# clean rule for target.
-CMakeFiles/modelPoint.dir/clean:
-	$(MAKE) -f CMakeFiles/modelPoint.dir/build.make CMakeFiles/modelPoint.dir/clean
-.PHONY : CMakeFiles/modelPoint.dir/clean
+.PHONY : main
 
 # clean rule for target.
-clean: CMakeFiles/modelPoint.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/main.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/modelPointCaculator.dir
+
+# All Build rule for target.
+CMakeFiles/modelPointCaculator.dir/all:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/depend
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target modelPointCaculator"
+.PHONY : CMakeFiles/modelPointCaculator.dir/all
+
+# Include target in all.
+all: CMakeFiles/modelPointCaculator.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/modelPointCaculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/modelPointCaculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/modelPointCaculator.dir/rule
+
+# Convenience name for target.
+modelPointCaculator: CMakeFiles/modelPointCaculator.dir/rule
+
+.PHONY : modelPointCaculator
+
+# clean rule for target.
+CMakeFiles/modelPointCaculator.dir/clean:
+	$(MAKE) -f CMakeFiles/modelPointCaculator.dir/build.make CMakeFiles/modelPointCaculator.dir/clean
+.PHONY : CMakeFiles/modelPointCaculator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/modelPointCaculator.dir/clean
 
 .PHONY : clean
 

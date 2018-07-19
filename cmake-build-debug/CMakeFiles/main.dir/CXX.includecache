@@ -15,4 +15,18 @@ glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
+modelPointCaculator.h
+/home/giang/Desktop/3DX/modelPoint/modelPointCaculator.h
+
+/home/giang/Desktop/3DX/modelPoint/modelPointCaculator.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/type_ptr.hpp
+-
+vector
+-
+iostream
+-
 
