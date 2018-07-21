@@ -15,23 +15,24 @@ modelPointCaculator::modelPointCaculator(
 
 {}
 
-Vec3 modelPointCaculator::getPoint() {
+float modelPointCaculator::distPointtoCameraRay(Vec3 A) {
+    return abs(dot(this->Ray, A - posCamera)) / length(this->Ray);
+}
 
-    Vec3 X = getIntersectionPoint();
-    int plane = -1;
-    for(int i = 0; i < 6; ++i)
-        if (CheckPointonPlane(X, i)) {plane = i; break;}
-
-
+int modelPointCaculator::getPoint(std::vector<Vec3> vPoint, float d) {
+    int ans = -1;
     int n = vPoint.size();
-    Vec3 ans = this->posCamera;
-    float mindist = 1e9;
+    float dist = 1e9;
 
     for(int i = 0; i < n; ++i)
-        if (CheckPointonPlane(vPoint[i], plane) && distance(X, vPoint[i]) < mindist) {
-            mindist = distance(X, vPoint[i]);
-            ans = vPoint[i];
+        if (distPointtoCameraRay(vPoint[i]) <= d) {
+        float distP = distance(vPoint[i], posCamera);
+
+        if (distP < dist) {
+            dist = distP;
+            ans = i;
         }
+    }
 
     return ans;
 }

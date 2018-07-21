@@ -1,4 +1,4 @@
-/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/main.dir
-/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/modelPointCaculator.dir
+/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/main.dir
+/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/modelPointCaculator.dir

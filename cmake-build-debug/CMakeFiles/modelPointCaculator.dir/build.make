@@ -43,10 +43,10 @@ RM = "/home/giang/Dev by me/clion-2018.1.4/bin/cmake/bin/cmake" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giang/Desktop/3DX/modelPoint
+CMAKE_SOURCE_DIR = /home/giang/Desktop/modelPoint
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giang/Desktop/3DX/modelPoint/cmake-build-debug
+CMAKE_BINARY_DIR = /home/giang/Desktop/modelPoint/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/modelPointCaculator.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/modelPointCaculator.dir/flags.make
 
 CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o: CMakeFiles/modelPointCaculator.dir/flags.make
 CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o: ../modelPointCaculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o -c /home/giang/Desktop/3DX/modelPoint/modelPointCaculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o -c /home/giang/Desktop/modelPoint/modelPointCaculator.cpp
 
 CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giang/Desktop/3DX/modelPoint/modelPointCaculator.cpp > CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giang/Desktop/modelPoint/modelPointCaculator.cpp > CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.i
 
 CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giang/Desktop/3DX/modelPoint/modelPointCaculator.cpp -o CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giang/Desktop/modelPoint/modelPointCaculator.cpp -o CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.s
 
 CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o.requires:
 
@@ -91,7 +91,7 @@ modelPointCaculator_EXTERNAL_OBJECTS =
 libmodelPointCaculator.a: CMakeFiles/modelPointCaculator.dir/modelPointCaculator.cpp.o
 libmodelPointCaculator.a: CMakeFiles/modelPointCaculator.dir/build.make
 libmodelPointCaculator.a: CMakeFiles/modelPointCaculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmodelPointCaculator.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmodelPointCaculator.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/modelPointCaculator.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/modelPointCaculator.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/modelPointCaculator.dir/clean:
 .PHONY : CMakeFiles/modelPointCaculator.dir/clean
 
 CMakeFiles/modelPointCaculator.dir/depend:
-	cd /home/giang/Desktop/3DX/modelPoint/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giang/Desktop/3DX/modelPoint /home/giang/Desktop/3DX/modelPoint /home/giang/Desktop/3DX/modelPoint/cmake-build-debug /home/giang/Desktop/3DX/modelPoint/cmake-build-debug /home/giang/Desktop/3DX/modelPoint/cmake-build-debug/CMakeFiles/modelPointCaculator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/giang/Desktop/modelPoint/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/giang/Desktop/modelPoint /home/giang/Desktop/modelPoint /home/giang/Desktop/modelPoint/cmake-build-debug /home/giang/Desktop/modelPoint/cmake-build-debug /home/giang/Desktop/modelPoint/cmake-build-debug/CMakeFiles/modelPointCaculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/modelPointCaculator.dir/depend
 
