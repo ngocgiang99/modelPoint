@@ -36,8 +36,10 @@ public:
         this->Ray = Vec3(_xRay, _yRay, _zRay);
     }
 
+    // Khoảng Cách từ điểm A đến Ray xuất phát từ Camera
     float distPointtoCameraRay(Vec3 A);
 
+    // Tìm điểm gần Ray một khoảng cách d và gần Camera nhất
     int getPoint(std::vector<Vec3> vPoint, float d);
 
 };

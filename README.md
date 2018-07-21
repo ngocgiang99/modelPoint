@@ -1,2 +1,1 @@
-- Giả sử model có giới hạn là : x = 0..10 y = -10..0, z = 0..10
-- Các cạnh model song song với các trục Oxyz 
+  
